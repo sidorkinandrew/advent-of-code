@@ -10,6 +10,7 @@ task_url = "https://adventofcode.com/2020/day/1/input"
 
 data = r.get(task_url, cookies=cookies)
 data = data.text.split("\n")[:-1]
+data = list(map(int, data))
 
 print(len(data))
 
