@@ -13,7 +13,6 @@ data = data.text.split("\n")[:-1]
 
 print(len(data))
 
-print(len(data))
 test = [
 "FBFBBFFRLR",
 "BFFFBBFRRR",
