@@ -6,7 +6,7 @@ cookies = {
 "session": "xx",
 "_gat": "xx"
 }
-task_url = "https://adventofcode.com/2021/day/5/input"
+task_url = "https://adventofcode.com/2021/day/4/input"
 
 data = r.get(task_url, cookies=cookies)
 data = data.text.split("\n")[:-1]
